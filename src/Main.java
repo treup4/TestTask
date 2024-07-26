@@ -22,6 +22,8 @@ public class Main {
     }
 
     public static String calc(String input) throws NumberFormatException, IOException, ArithmeticException, IndexOutOfBoundsException {
+        if (input.isEmpty()) throw new IOException();
+
         int result = 0;
         String[] elements = input.split(" ");
 
