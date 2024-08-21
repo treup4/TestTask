@@ -20,7 +20,7 @@ public class Main {
         }
     }
 
-    public static String calc(String input) throws NumberFormatException, IOException, ArithmeticException, IndexOutOfBoundsException {
+    public static String calc(String input) throws IOException {
         if (input.isEmpty()) throw new IOException();
 
         int result = 0;
