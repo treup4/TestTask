@@ -5,7 +5,6 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Введите выражение(Пример: 6 * 8): ");
         String input = scanner.nextLine();
         try {
             String result = calc(input);
